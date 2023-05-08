@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.nav-text{
+    text-decoration: none;
+    color: #cabcab;
+    font-family: 'Gloock', serif;
+    font-size: 17px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #b85c48;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.container-nav{
+    display: flex;
+}
+
+.card-nav{
+    padding: 15px 20px;
+}
+
+.no-point{
+    list-style-type: none;
+}
+
+#nav-contacto{
+    color: #80221E;
+    background-color: #cabcab;
+    padding: 10px 20px;
+    border: 1px solid #cabcab;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+@media (max-width: 1100px){
+    nav{
+        display: none;
+    }
+}
