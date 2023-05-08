@@ -3,21 +3,21 @@ body{
     background-image: linear-gradient(to right, #cabcab, #d1c7b8, #d8d2c6, #dfdcd4, #e8e7e2);
 }
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #b85c48;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 .nav-text{
     text-decoration: none;
     color: #cabcab;
     font-family: 'Gloock', serif;
     font-size: 17px;
-}
-
-nav{
-    display: flex;
-    justify-content: flex-end;
-    background-color: #b85c48;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    /* position: fixed;
-    top: 0;
-    width: 100%; */
 }
 
 .container-nav{
@@ -53,10 +53,9 @@ main{
     justify-content: center;
     align-items: center;
     width: 100%;
-;
 }
 
-header{
+.presentation{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
