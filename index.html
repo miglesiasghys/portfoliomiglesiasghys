@@ -9,28 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Shippori+Mincho+B1:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f00683b7b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul class="container-nav">
                 <li class="card-nav no-point">
-                    <a class="nav-text" href="#hola">
+                    <a class="nav-text no-decoration" href="#hola">
                         Hola
                     </a>
                 </li>
                 <li class="card-nav no-point">
-                    <a class="nav-text" href="#conocimientos">
+                    <a class="nav-text no-decoration" href="#conocimientos">
                         Conocimientos
                     </a>
                 </li>
                 <li class="card-nav no-point">
-                    <a class="nav-text" href="#proyectos">
+                    <a class="nav-text no-decoration" href="#proyectos">
                         Proyectos
                     </a>
                 </li>
                 <li class="card-nav no-point">
-                    <a class="nav-text" id="nav-contacto" href="#contacto">
+                    <a class="nav-text no-decoration" id="nav-bottom" href="#contacto">
                         Contacto
                     </a>            
                 </li>
@@ -41,17 +42,17 @@
         <a name="hola"></a>
         <section class="presentation">
             <div class="container-presentation">
-                <h2 class="font-major">
-                    ¡Hola! Soy </br><span class="font-elder">Macarena Iglesias Ghys</span>
+                <h2 class="font-blue">
+                    ¡Hola! Soy </br><span id="font-elder">Macarena Iglesias Ghys</span>
                 </h2>
-                <p>
+                <p class="second-font">
                     Desarrolladora y artista visual.
                 </p>
-                <h4>
-                    <a href="#proyectos">
+                <h3>
+                    <a class="no-decoration" id="nav-bottom" href="#proyectos">
                         Lo que hago
                     </a>
-                </h4>
+                </h3>
             </div>
             <div class="img-presentation">
                 <img src="https://i.pinimg.com/564x/43/f5/bf/43f5bfce9fdcdb4187a7d53d1dfa1bc9.jpg" alt="imagen provisoria">
@@ -139,23 +140,48 @@
         </section>
     </main>
     <footer>
-        <div>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        <nav class="center">
+            <ul class="container-footer">
+                <li class="card-nav no-point">
+                    <a class="nav-text no-decoration" href="#hola">
+                        Hola
+                    </a>
+                </li>
+                <li class="card-nav no-point">
+                    <a class="nav-text no-decoration" href="#conocimientos">
+                        Conocimientos
+                    </a>
+                </li>
+                <li class="card-nav no-point">
+                    <a class="nav-text no-decoration" href="#proyectos">
+                        Proyectos
+                    </a>
+                </li>
+                <li class="card-nav no-point">
+                    <a class="nav-text no-decoration" href="#contacto">
+                        Contacto
+                    </a>            
+                </li>
+            </ul>
+        </nav>
+        <div class="center">
+            <ul class="social-media">
+                <li class="card-media no-point">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </li>
+                <li class="card-media no-point">
+                    <i class="fa-brands fa-github-alt"></i>
+                </li>
+                <li class="card-media no-point">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </li>
+                <li class="card-media no-point">
+                    <i class="fa-solid fa-envelope"></i>
+                </li>
             </ul>
         </div>
-        <div>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <p>
-            Hecho con ♥ por Maca.
+        <p class=" signature">
+            Hecho con <span>&#128151;</span> por Maca.
         </p>
     </footer>
 </body>
