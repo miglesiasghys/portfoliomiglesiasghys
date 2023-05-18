@@ -4,8 +4,6 @@ body{
 }
 
 header{
-    position: fixed;
-    top: 0;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -61,7 +59,7 @@ main{
 .presentation{
     display: flex;
     flex-direction: row;
-    padding: 200px 0px;
+    padding: 100px 0px;
 }
 
 @media (max-width:900px){
@@ -86,9 +84,9 @@ img{
     align-items: center;
 }
 
-#font-elder{
+#name-presentation{
     font-family: 'Gloock', serif;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .container-presentation{
@@ -96,15 +94,16 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 10vh;
 }
 
 .font-blue{
     color: #1d1258;
     font-family: 'Shippori Mincho B1', serif;
     font-weight: 600;
-    padding-left: 5vh;
 }
-.second-font{
+
+.description-presentation{
     color: #b85c48;
     font-weight:600;
     font-size: 20px;
@@ -118,8 +117,10 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px;
+    padding: 20px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+
 .container-footer{
     display: flex;
     justify-content: center;
@@ -129,7 +130,7 @@ footer{
 .social-media{
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 0
 }
 
 .card-media{
@@ -146,10 +147,78 @@ footer{
     text-align: center;
     font-size: 15px;
     font-family: 'Shippori Mincho B1', serif;
-    ;
 }
 
 .center{
-    padding: 0;
+    padding: 20px 0px;
     margin: 0;
 }
+
+.container-cards{
+    width: 100%;
+    background-color: #cabcab;
+    box-shadow: rgba(197, 137, 81, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+#font-subtitle{
+    font-family: 'Gloock', serif;
+    font-size: 35px;
+    padding: 0;
+}
+
+.container-cards-icons{
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #edeceb;
+    margin: 10px;
+    padding-top: 15px;
+    width: 32vh;
+    height: 28vh;
+    border-radius: 10px;
+    border: 1px solid #cabcab;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.fa-brands{
+    font-size: 10vh;
+}
+
+.fa-html5{
+    color: #e54d26;
+}
+
+.fa-css3-alt{
+    color: #3d8fc6
+}
+
+.fa-sass{
+    color: #ce6d9d;
+}
+
+.fa-square-js{
+    color: #f0db4f
+}
+
+.fa-react{
+    color: #96e6fc
+}
+
+.fa-git-alt{
+    color: #f34f29
+}
+

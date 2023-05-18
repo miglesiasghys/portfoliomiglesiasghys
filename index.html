@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Shippori+Mincho+B1:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gloock&family=Shippori+Mincho+B1:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f00683b7b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -43,9 +43,9 @@
         <section class="presentation">
             <div class="container-presentation">
                 <h2 class="font-blue">
-                    ¡Hola! Soy </br><span id="font-elder">Macarena Iglesias Ghys</span>
+                    ¡Hola! Soy </br><span id="name-presentation">Macarena Iglesias Ghys</span>
                 </h2>
-                <p class="second-font">
+                <p class="description-presentation">
                     Desarrolladora y artista visual.
                 </p>
                 <h3>
@@ -58,10 +58,9 @@
                 <img src="https://i.pinimg.com/564x/43/f5/bf/43f5bfce9fdcdb4187a7d53d1dfa1bc9.jpg" alt="imagen provisoria">
             </div>
         </section>
-        <section>
-            <a name="conocimientos">
-            </a>
-            <h2>
+        <a name="conocimientos"></a>
+        <section class="container-cards">
+            <h2 class="font-blue" id="font-subtitle">
                 Mis conocimientos
             </h2>
             <p>
@@ -70,22 +69,28 @@
             </p>
             <div class="container-cards-icons">
                 <div class="card icon-orange">
-                    HTML 5
+                    <i class="fa-brands fa-html5"></i>
+                    <h4>HTML 5</h4>
                 </div>
-                <div class="card icon-blue">
-                    CSS 3
+                <div class="card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h4>CSS 3</h4>
                 </div>
-                <div class="card icon-pink">
-                    Sass
+                <div class="card">
+                    <i class="fa-brands fa-sass"></i>
+                    <h4>Sass</h4>
                 </div>
-                <div class="card icon-yellow">
-                    JavaScript
+                <div class="card">
+                    <i class="fa-brands fa-square-js"></i>
+                    <h4>JavaScript</h4>
                 </div>
-                <div class="card icon-lightblue">
-                    React
+                <div class="card">
+                    <i class="fa-brands fa-react"></i>
+                    <h4>React</h4>
                 </div>
-                <div class="card icon-orange">
-                    GIT
+                <div class="card">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h4>GIT</h4>
                 </div>
             </div>
         </section>
@@ -166,22 +171,25 @@
         </nav>
         <div class="center">
             <ul class="social-media">
-                <li class="card-media no-point">
-                    <i class="fa-brands fa-linkedin-in"></i>
+                <li class="no-point">
+                    <a class="no-decoration card-media" href="https://github.com/miglesiasghys">
+                        <i class="fa-brands fa-github-alt"></i>
+                    </a>
                 </li>
-                <li class="card-media no-point">
-                    <i class="fa-brands fa-github-alt"></i>
+                <li class="no-point">
+                    <a class= "no-decoration card-media" href="https://www.linkedin.com/in/macarena-iglesias-ghys/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
                 </li>
-                <li class="card-media no-point">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </li>
-                <li class="card-media no-point">
-                    <i class="fa-solid fa-envelope"></i>
+                <li class="no-point">
+                    <a class="no-decoration card-media" href="mailto:macaiglesiasghys@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
                 </li>
             </ul>
         </div>
-        <p class=" signature">
-            Hecho con <span>&#128151;</span> por Maca.
+        <p class="center signature">
+            Hecho con <span>&#128151;</span> por Maca Iglesias Ghys.
         </p>
     </footer>
 </body>
