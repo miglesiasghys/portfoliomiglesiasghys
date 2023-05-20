@@ -62,12 +62,22 @@ main{
     padding: 100px 0px;
 }
 
+.container-presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6vh;
+}
+
 @media (max-width:900px){
     .presentation{
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 50px 0px;
+    }
+    .container-presentation{
+        padding-left: 2vh;
     }
     .img-presentation{
         margin-top: 40px;
@@ -86,16 +96,10 @@ img{
 
 #name-presentation{
     font-family: 'Gloock', serif;
-    font-size: 60px;
+    font-size: 40px;
 }
 
-.container-presentation{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10vh;
-}
+
 
 .font-blue{
     color: #1d1258;
@@ -105,8 +109,7 @@ img{
 
 .description-presentation{
     color: #b85c48;
-    font-weight:600;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Shippori Mincho B1', serif;
     font-weight: 600;
 }
@@ -167,7 +170,7 @@ footer{
 
 #font-subtitle{
     font-family: 'Gloock', serif;
-    font-size: 35px;
+    font-size: 30px;
     padding: 0;
 }
 
@@ -185,7 +188,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #edeceb;
-    margin: 10px;
+    margin: 5px;
     padding-top: 15px;
     width: 32vh;
     height: 28vh;
@@ -194,7 +197,7 @@ footer{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-.fa-brands{
+.fa-conocimientos{
     font-size: 10vh;
 }
 
