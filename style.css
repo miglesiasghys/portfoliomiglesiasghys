@@ -225,3 +225,31 @@ footer{
     color: #f34f29
 }
 
+.proyects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-proyects{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img-proyects{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure{
+    height: 100%;
+    text-align: center;
+}
