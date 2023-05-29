@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gloock&family=Shippori+Mincho+B1:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f00683b7b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -42,152 +42,164 @@
         <a name="hola"></a>
         <section class="presentation">
             <div class="container-presentation">
-                <h2 class="font-blue">
-                    ¡Hola! Soy </br><span id="name-presentation">Macarena Iglesias Ghys</span>
-                </h2>
-                <p class="description-presentation">
-                    Desarrolladora y artista visual.
-                </p>
-                <h3>
-                    <a class="no-decoration" id="nav-bottom" href="#proyectos">
-                        Lo que hago
-                    </a>
-                </h3>
+                <div class="container-presentation-card">
+                    <h2 class="font-blue">
+                        ¡Hola! Soy </br><span class="name-presentation">Macarena Iglesias Ghys</span>
+                    </h2>
+                    <p class="description-presentation">
+                        Desarrolladora y artista visual.
+                    </p>
+                </div>
+                <div class="container-presentation-card">
+                    <span>
+                        <a class="no-decoration" id="nav-bottom" href="#proyectos">
+                            Lo que hago
+                        </a>
+                    </span>
+                </div>
             </div>
             <div class="img-presentation">
                 <img src="https://i.pinimg.com/564x/43/f5/bf/43f5bfce9fdcdb4187a7d53d1dfa1bc9.jpg" alt="imagen provisoria">
             </div>
         </section>
         <a name="conocimientos"></a>
-        <section class="container-cards">
-            <h2 class="font-blue" id="font-subtitle">
+        <section class="container-cards-conocimientos">
+            <h2 class="font-blue font-title">
                 Mis conocimientos
             </h2>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam enim dolorum libero molestiae, soluta, officia dolore tenetur molestias corporis vel laborum cupiditate qui dignissimos illo. 
+            <p class="subtitle-section">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quae molestias est, voluptate eveniet saepe? 
                 <!-- cambiar por info personal-->
             </p>
             <div class="container-cards-icons">
-                <div class="card icon-orange">
+                <div class="card">
                     <i class="fa-brands fa-conocimientos fa-html5"></i>
-                    <h4>HTML 5</h4>
+                    <h4 class="name-brand">HTML 5</h4>
                 </div>
                 <div class="card">
                     <i class="fa-brands fa-conocimientos fa-css3-alt"></i>
-                    <h4>CSS 3</h4>
+                    <h4 class="name-brand">CSS 3</h4>
                 </div>
                 <div class="card">
                     <i class="fa-brands fa-conocimientos fa-sass"></i>
-                    <h4>Sass</h4>
+                    <h4 class="name-brand">Sass</h4>
                 </div>
                 <div class="card">
                     <i class="fa-brands fa-conocimientos fa-square-js"></i>
-                    <h4>JavaScript</h4>
+                    <h4 class="name-brand">JavaScript</h4>
                 </div>
                 <div class="card">
                     <i class="fa-brands fa-conocimientos fa-react"></i>
-                    <h4>React</h4>
+                    <h4 class="name-brand">React</h4>
                 </div>
                 <div class="card">
                     <i class="fa-brands fa-conocimientos fa-git-alt"></i>
-                    <h4>GIT</h4>
+                    <h4 class="name-brand">GIT</h4>
                 </div>
             </div>
         </section>
-        <section>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus illo beatae tempore eveniet? Quas ad, hic laudantium sequi sit modi accusamus a velit fugit id.
-                <!-- cambiar por cita -->
-            </p>
-            <h3>
-                Nombre del autor
-            </h3>
+        <section class="container-cita">
+            <div class="box-cita">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis a porro, nostrum error, culpa dolorum facere incidunt itaque quis, ipsum provident quia esse suscipit! Cupiditate expedita fugiat id illo quis.
+                    <!-- cambiar por cita -->
+                </p>
+                <h3>
+                    Nombre del autor
+                </h3>
+            </div>
         </section>
+        <a name="proyectos">
+        </a>
         <section class="proyects">
-            <a name="proyectos">
-            </a>
-            <h2>
+            <h2 class="font-blue font-title">
                 Mis proyectos
             </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti illum eveniet nobis veniam numquam dolorem, accusamus doloremque autem quidem!
+            <p class="subtitle-section">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti illum eveniet nobis veniam numquam
+                dolorem, accusamus doloremque autem quidem!
                 <!-- cambiar -->
             </p>
             <div class="container-proyects">
                 <article class="container-img-proyects">
-                    <h3>
+                    <h3 class="name-proyect">
                         Portfolio
                     </h3>
                 </article>
                 <article class="container-img-proyects">
-                    <figure>
-                        <img src="undraw_a_moment_to_relax_re_v5gv.svg" alt="Imagen generador de memes"/>
+                    <figure class="img-proyects">
+                        <img src="undraw_a_moment_to_relax_re_v5gv.svg" alt="Imagen generador de memes" />
                     </figure>
-                    <h3>
+                    <h3 class="name-proyect">
                         Generador de memes
                     </h3>
                 </article>
                 <article class="container-img-proyects">
-                    <figure>
-                        <img src="undraw_video_game_night_8h8m.svg" alt="Imagen Match"/>
+                    <figure class="img-proyects">
+                        <img src="undraw_video_game_night_8h8m.svg" alt="Imagen Match" />
                     </figure>
-                    <h3>
+                    <h3 class="name-proyect">
                         Match 3
                     </h3>
                 </article>
                 <article class="container-img-proyects">
-                    <figure>
-                        <img src="undraw_shopping_re_hdd9.svg" alt="Imagen controlador de gastos"/>
+                    <figure class="img-proyects">
+                        <img src="undraw_shopping_re_hdd9.svg" alt="Imagen controlador de gastos" />
                     </figure>
-                    <h3>
+                    <h3 class="name-proyect">
                         Controlador de gastos
                     </h3>
                 </article>
                 <article class="container-img-proyects">
-                    <figure>
-                        <img src="undraw_online_calendar_re_wk3t.svg" alt="Imagen administrador de reuniones"/>
+                    <figure class="img-proyects">
+                        <img src="undraw_online_calendar_re_wk3t.svg" alt="Imagen administrador de reuniones" />
                     </figure>
-                    <h3>
+                    <h3 class="name-proyect">
                         Administrador de reuniones
                     </h3>
                 </article>
                 <article class="container-img-proyects">
-                    <figure>
-                        <img src="undraw_app_installation_re_h36x.svg" alt="Imagen todo app"/>
+                    <figure class="img-proyects">
+                        <img src="undraw_app_installation_re_h36x.svg" alt="Imagen todo app" />
                     </figure>
-                    <h3>
+                    <h3 class="name-proyect">
                         Todo app
                     </h3>
                 </article>
                 <article class="container-img-proyects">
-                    <figure>
-                        <img src="undraw_horror_movie_3988.svg" alt="Imagen buscador de peliculas"/>
+                    <figure class="img-proyects">
+                        <img src="undraw_horror_movie_3988.svg" alt="Imagen buscador de peliculas" />
                     </figure>
-                    <h3>
-                        Buscador de peliculas
+                    <h3 class="name-proyect">
+                        Buscador de películas
                     </h3>
                 </article>
             </div>
         </section>
-        <section>
-            <a name="contacto">
-            </a>
-            <h2>
-                Contactame
-            </h2>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ipsam laboriosam adipisci aliquam deserunt repudiandae.
-            </p>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
-        <section>
-            <h2>
-                Escribime
-            </h2>
+        <a name="contacto"></a>
+        <section class="container-contacto">
+            <div class="container-contacto-form">
+                <article class="card-contacto">
+                    <h2>
+                        Contactame
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ipsam laboriosam adipisci aliquam
+                        deserunt repudiandae.
+                    </p>
+                    <ul>
+                        <li class="no-point"></li>
+                        <li class="no-point"></li>
+                        <li class="no-point"></li>
+                    </ul>
+                </article>
+                <article class="card-form">
+                    <h2>
+                        Escribime
+                    </h2>
+                </article>
+            </div>
         </section>
     </main>
     <footer>
@@ -199,17 +211,17 @@
                     </a>
                 </li>
                 <li class="card-nav no-point">
-                    <a class="nav-text no-decoration" href="#conocimientos">
+                    <a class="nav-text-footer no-decoration" href="#conocimientos">
                         Conocimientos
                     </a>
                 </li>
                 <li class="card-nav no-point">
-                    <a class="nav-text no-decoration" href="#proyectos">
+                    <a class="nav-text-footer no-decoration" href="#proyectos">
                         Proyectos
                     </a>
                 </li>
                 <li class="card-nav no-point">
-                    <a class="nav-text no-decoration" href="#contacto">
+                    <a class="nav-text-footer no-decoration" href="#contacto">
                         Contacto
                     </a>            
                 </li>
