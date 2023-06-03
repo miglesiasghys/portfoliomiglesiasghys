@@ -227,15 +227,15 @@ img{
 }
 /**/
 
-.container-proyects{
+.container-projects{
     flex-direction: column;
     padding: 100px 0px;
 }
-.cards-proyects{
+.cards-projects{
     width: 80%;  
     flex-wrap: wrap;
 }
-.container-proyect{
+.container-project{
     width: 40vh;
     height: 40vh;
     flex-direction: column;
@@ -249,19 +249,19 @@ img{
     border: 2px solid transparent;
     color: #342c62;
 }
-.img-proyects{
+.img-projects{
     text-align: center;
     width: 80%;
     height: 50%
 }
-.img-proyects img{
+.img-projects img{
     height: 100%;
 } 
-.proyect-title{
+.project-title{
     font-size: 2.5vh;
     font-weight: 600;
 }
-.container-proyect:hover{
+.container-project:hover{
     border: 2px solid #b85c48;
     color: #b85c48
 }
