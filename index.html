@@ -174,7 +174,7 @@
             </div>
         </section>
         <a name="contacto"></a>
-        <section class="container-contacto isflex box-center">
+        <section class="container-contacto isflex">
             <div class="container-contacto-form isflex">
                 <article class="card card-contacto">
                     <h2 class="section-title">
@@ -216,32 +216,33 @@
                     </h2>
                     <div>
                         <form>
-                            <div>
-                                <div>
+                            <div class="complete-name-surname isflex">
+                                <div class="complete-user">
                                     <label for="user-name">
                                         Nombre*:
                                     </label>
                                     <input type="text" id="user-name" placeholder="Ingrese su nombre">
                                 </div>
-                                <div>
+                                <div class="complete-user">
                                     <label for="user-surname">
                                         Apellido*:
                                     </label>
                                     <input type="text" id="user-surname" placeholder="Ingrese su apellido">
                                 </div>
                             </div>
-                            <div>
+                            <div class="complete-user-email">
                                 <label for="user-email">
                                     Email*:
                                 </label>
-                                <input type="email" id="user-email" placeholder="Ingrese su email">
+                                <input type="email" class="input-email" id="user-email" placeholder="Ingrese su email">
                             </div>
-                            <div>
+                            <div class="complete-user-textarea">
                                 <label for="message">
                                     Mensaje*:
                                 </label>
                                 <textarea id="message" placeholder="Escriba un mensaje aquí"></textarea>
                             </div>
+                            <input type="submit">
                         </form>
                     </div>
                 </article>

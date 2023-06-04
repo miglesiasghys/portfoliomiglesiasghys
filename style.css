@@ -129,6 +129,7 @@ img{
     color: #1d1258;
     font-weight: 600;
     font-size: 6vh;
+    margin: 10px 0px;
 }
 .text-description{
     width: 30%;
@@ -272,14 +273,16 @@ img{
     background-color:#b89885;
     width: 100%;
     padding: 100px 0px;
+    justify-content: center;
+    align-items: center
 }
 .container-contacto-form{
     background-color: #cabcab;
     border: 2px solid #80221E;
     border-radius: 30px;
     width: 80%;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
     padding: 20px;
 }
 .card{
@@ -392,4 +395,45 @@ img{
     .card-media{
         margin: 0px 10px;
     }
+}
+
+/**/
+
+.complete-name-surname{
+    width: 100%;
+}
+.complete-user{
+    width: 90%;
+}
+.complete-user-textarea{
+    width: 100%;
+}
+input{
+    width: 90%;
+    min-height: 40px;
+    margin: 15px 0px;
+    background-color: #e7e6e3;
+    border: 1px solid #b89885;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+.input-email{
+    width: 95%;
+}
+textarea{
+    width: 95%;
+    height: 80px;
+    padding: 10px;
+    margin: 15px 0px;
+    background-color: #e7e6e3;
+    border: 1px solid #b89885;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
