@@ -247,6 +247,8 @@ nav{
 .container-projects{
     flex-direction: column;
     padding: 110px 0px;
+    background-color: #d1c7b8;
+    width: 100%;
 }
 .container-cards-projects{
     width: 80%;  
@@ -258,17 +260,16 @@ nav{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #edeceb;
+    background-color: #b89885;
     margin: 10px;
-    border: 1px solid #cabcab;
+    border: 2px solid #b89885;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     border-radius: 10px;
-    border: 2px solid transparent;
     color: #342c62;
 }
 .img-projects{
     text-align: center;
-    width: 80%;
+    width: 90%;
     height: 50%
 }
 .img-projects img{
@@ -279,8 +280,8 @@ nav{
     font-weight: 600;
 }
 .box-project:hover{
-    border: 2px solid #b85c48;
-    color: #b85c48
+    border: 2px solid #dcdbd9;
+    color: #dcdbd9
 }
 @media (max-width: 900px){
     .container-projects{
