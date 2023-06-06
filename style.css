@@ -46,6 +46,10 @@ nav{
     border-radius: 25px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+.text-link:focus {
+    outline: 1px solid #1d1258;
+    box-shadow: 2px 4px 21px -5px rgba(116, 115, 116, 0.75);
+}
 .nav-text:hover{
     color: #1d1258;
 }
@@ -368,6 +372,14 @@ nav{
 @media (max-width: 900px){
     .container-contact{
         padding: 50px 0px;
+    }
+    .link-contact-text{
+        font-size: 2vh;
+    }
+}
+@media (max-width: 310px){
+    .link-contact-text{
+        font-size: 1.7vh;
     }
 }
 /**/
